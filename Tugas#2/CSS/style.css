@@ -6,6 +6,9 @@ body{
 	margin:auto;
 }
 
+* {
+	display:block;
+}
 h2 {
 	font-size: 45px;
 	border-left: 30px solid white;
