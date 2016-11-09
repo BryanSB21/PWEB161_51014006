@@ -1,10 +1,20 @@
+body{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: arial,verdana;
+
+}
 header {
   text-align:none;
   background-image: url(bg1.jpg);
   background-size: cover
   color: white;
+  margin-top:auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin: auto;
 }
-
 
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(166, 166, 166, 0.9);
@@ -13,6 +23,10 @@ header {
   height: 100%;
   opacity: 0;
   transition: all ease 0.5s;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin: auto;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -23,21 +37,149 @@ header {
   text-align: center;
   top: 50%;
   margin-top: -12px;
-  color:#fff;
+  color:#000;
 }
 
 .portofolio-item{
 	display: block;
 	width: 400px;
 	height: 700px;
+  margin-top:auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin: auto;
 }
 
-.gbr{
+.thumbnail img{
   width: 500px;
-  height: 300px;
-  -webkit-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
-  -moz-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
-  box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+  height: 200px
+}
+
+.navbar-custom{
+  background-color: #006bb3;
+  padding: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin: auto;
+}
+
+.intro-text{
+  color: #000;
+  text-shadow: 0 0 3px #fff;
+  font-size: 30px;
+  margin-top: -10px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin: auto;
+}
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover{
+  background-color: #ff6666;
+  padding: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin: auto;
+}
+
+.navbar-custom .navbar-nav li a:hover{
+  color: #ff6666;
+  padding: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin: auto;
+}
+
+#portfolio{
+  background-image: url(swirl_pattern.png);
+  padding: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin: auto;
+}
+
+header img{
+  width: 400px;
+  height: 400px;
+  background: rgba(166, 166, 166,0.5);
+  border-radius: 200px;
+  border:3px solid #999;
+  margin-top: -10px;
+  position: relative;
   display: block;
-  margin: 0px auto;  
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.isi{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+  position: relative;
+  display: block;
+  height: auto;
+  background-color: #d9d9d9;
+}
+
+.main{
+  width: 750px;
+  color: #000;
+  padding: 5px;
+  margin-top: 8px;
+  text-align: center;
+  position: relative;
+  display: block;
+  font-size:20px;
+  border-style: solid;
+  border-width: 0px;}
+
+.main h2{
+  width: 100%;
+  font-size: 40px;
+  background-color: #595959;
+  color: #fff;
+  border-bottom:5px solid #666; 
+  border-top:5px solid #666;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.main img{
+  width: 400px;
+  border:5px solid #d9d9d9;
+  border-radius: 20px ;
+  box-shadow: 3px 5px 9px rgba(0, 0, 0, .5);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 768px)
+{ 
+  .isi  {
+    width: auto;
+
+  }
+  .main {
+    width: auto;
+  
+
+  }
+  
+}
+
+@media screen and (max-width: 768px)
+{
+  
+  .isi , .main {
+    width: auto;
+    float: none;
+  }
+    
 }
