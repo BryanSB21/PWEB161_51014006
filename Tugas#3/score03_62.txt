@@ -1,0 +1,6 @@
++10 untuk tugas selesai(sdh sync ke GitHub per tanggal 02/11/16)
++45 untuk setiap selector yang lebih dari 5 baris
++4 untuk setiap .class ke-5 sampai ke .class ke-10
++3 untuk tampilan menu yang unik( bukan link biasa)
+
+Total:62
