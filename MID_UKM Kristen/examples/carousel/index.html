@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>UKM Kristen & Katolik</title>
+    <title>UKM Kristen</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -34,36 +34,34 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-     <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <img class="masthead-brand" src="http://www.kharisma.ac.id/img_logo/logo%20stmik.png" alt="www.kharisma.ac.id"/>
-
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="about.html">Tentang Kami</a></li>
-                   <li class="dropdown">
+      <div class="container">
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <h3 class="text-muted"><a class="logo" href="http://www.kharisma.ac.id/" title="www.kharisma.ac.id" target="_blank">
+        <img data-placeholder="no" src="img/logo.png" alt="" style="width:300px;height:120px;"  />
+      </a>
+      </h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+            <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formulir <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="contact.html">Formulir Register</a></li>
-                    <li><a href="contact.html">Formulir Test</a></li>
+                    <li><a href="formulir.html">Formulir Register</a></li>
+                    <li><a href="formulir.html">Formulir Tim Kerja</a></li>
                   </ul>
-                </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
+            <li><a href="Daftar Anggota.html">Data Anggota</a></li>
+          </ul>
+        </nav>
+      </div>
 
 
 
     <!-- Carousel
     ================================================== -->
+    <hr>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -73,13 +71,13 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide " src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="img/cover.jpg" alt="First slide">
         </div>
         <div class="item">
-          <img class="second-slide " src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="img/ukm.jpg" alt="Second slide">
         </div>
         <div class="item">
-          <img class="third-slide " src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="img/6.jpg" alt="Third slide">
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -92,65 +90,82 @@
       </a>
     </div><!-- /.carousel -->
 
+    </div>
+
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
+    <div class="marketing">
 
-     <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1>KEGIATAN UKM</h1>
-                    <br>
-                </div>
-            </div>
-                    <div class="gbr img-responsive ">
-                      <div class="col-md-4 portfolio-item">
-                        <div class="thumbnail">
-                          <img src="img/images.jpg" class="test" alt="">
-                          <div class="caption">
-                            <h3>Ibadag Natal & Tahun Baru</h3>
-                            <p>Kegiatan Mahasiswa dengan ibadah bersama di Perayan Natal & Tahun baru</p>
-                            <p><a href="#portfolioModal1" class="btn btn-primary portfolio-link" role="button" data-toggle="modal">Read More</a></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+      <!-- Three columns of text below the carousel -->
 
-                    <div class="gbr img-responsive gbr">
-                      <div class="col-md-4 portfolio-item">
-                        <div class="thumbnail">
-                          <img src="img/paskah.jpg" class="test" alt="">
-                          <div class="caption">
-                            <h3>Ibadah Paskah</h3>
-                            <p>Kegiatan Mahasiswa Kristen dengan ibadah bersama di Perayan Paskah di STMIK Kharisma</p>
-                            <p><a href="#portfolioModal2" class="btn btn-primary portfolio-link" role="button" data-toggle="modal">Read More</a></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+      <!-- Jumbotron -->
+      <div class="jumbotron test1 parallax">
+        <h1>Welcome Guys,<br> GOD BLASSED YOU..</h1>
+        <p class="lead">UKM Kristen STMIK Kharisma Makassar</p>
+      </div>
+      
 
-                    <div class="gbr img-responsive ">
-                      <div class="col-md-4 portfolio-item">
-                        <div class="thumbnail">
-                          <img src="img/ibdah.jpg" class="test" alt="">
-                          <div class="caption">
-                            <h3>Ibadah Rutin</h3>
-                            <p>Kegiatan Mahasiswa dengan ibadah bersama dan Jadwal Ibadah Rutin</p>
-                            <p><a href="#portfolioModal3" class="btn btn-primary portfolio-link" role="button" data-toggle="modal">Read More</a></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+      <!-- START THE FEATURETTES -->
+    <div class="container marketing">
 
-          </div>
-          <br>
-          <br>
+      <hr>
+
+      <h1 class="intro-text text-center">Kegiatan
+         <strong>UKM Kristen</strong>
+      </h1><br>
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Ibadah Rutin</h2>
+          <p class="lead"> Sebagai penyegaran rohani. Setiap hari kita diperhadapkan dengan banyak pergumulan dan masalah, karena itu kita membutuhkan kekuatan dan penghiburan.  Dan ibadah menjadi jawaban atas itu semua.  Melalui firman Tuhan kita diingatkan kembali betapa kita memiliki Tuhan yang heran dan ajaib.  Masalah yang kita alami tidak sebanding dengan kebesaran dan kuasa Tuhan.  Hal ini memberikan ketenangan hidup bagi kita. </p>
         </div>
-    </section>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/ibd.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
 
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading"> Ibdah Bersama Armed</h2>
+          <p class="lead">Pelayanan. Dalam ibadah kita berkumpul dengan keluarga besar Kerajaan Allah. Ada tertulis: "Demikianlah kamu bukan lagi orang asing dan pendatang, melainkan kawan sewarga dari orang-orang kudus dan anggota-anggota keluarga Allah."  (Efesus 2:19).  Oleh karena itu kita harus saling mengasihi dan melengkapi satu sama lain. Dan dalam ibadah inilah kita memiliki kesempatan untuk melayani Tuhan karena melayani itu bukanlah hak istimewa para hamba Tuhan atau profesional di bidang rohani saja;  setiap orang Kristen adalah hamba yang melayani  (baca1 Petrus 2:9).</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="img/armed.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"> Ibdah Natal & Tahun Baru </h2>
+          <p class="lead">Kelahiran Kristus di dunia mempunyai suatu titik awal yang paling penting dalam misi Kristus. Dilahirkan bukan dari pencampuran laki-laki dan perempuan, melainkan secara campur tangan Allah yakni diperanakan oleh kuasa Roh Allah (Mat 1:18,20). Maria, seorang gadis saleh, mendapat kehormatan sebagai perantara kedatangan Sang Mesias (Luk 1:26-33). Adapun Kristus datang untuk memperbaiki hubungan manusia dengan Allah yang semakin buruk oleh karena kesesatan manusia.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/natal.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+      </div>
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
 
 
     <!-- Bootstrap core JavaScript
