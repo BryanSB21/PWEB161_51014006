@@ -1,0 +1,10 @@
+<h1>Banjir Di Karawang</h1>
+<hr>
+
+<p>Banjir melanda kota Karawang pada tanggal 22 Maret 2010,khususnya di daerah rawan banjir,namun kini banjir menghampiri daerah yang sebelumnya tidak pernah terkena banjir. Pada saat banjir, warga di daerah Gempol Anjun mengungsi ke tempat- tempat yang belum terkena banjir. Namun, warga pindah mengungsi lagi ke tempat lain ketika banjir semakin besar. Semua warga panik ketika banjir semakin besar dan mereka berusaha menyelamatkan harta bendanya yang berharga dan perlu di bawa. Sebagian warga ada yang mengungsi di masjid Al- Jihad,Kaum,dan rumah sanak saudara yang tidak terkena banjir. Semua warga mendapatkan bantuan berupa mie instan, nasi bungkus, beras, pakaian, sembako, makanan bayi,dll.</p>
+
+<p>Pada saat hujan turun sangat besar, ada beberapa pohon yang tumbang. Pohon tumbang menyebabkan rumah- rumah rusak tertiban oleh pohon. Saat banjir ada seseorang yang kanyut terbawa arus, ada pula nenek- nenek yang tertabrak kereta api saat memunguti cangkir akua bekas. Banjir yang sangat besar menyebabkan beberapa rumah runtuh, juga menimbulkan berbagai penyakit.</p>
+
+<p>Banjir di sebabkan oleh tangan manusia yang tidak disiplin,banyak warga yang membuang sampah ke sungai citarum sehingga sampah tersumbat di sungai. Banjir di Karawang memang kiriman dari waduk Jati Luhur yang sedang musim hujan. Namun, semua itu akibat ulah warga yang tak pernah disiplin. Cara mencegah banjir yaitu dengan membakar sampah yang kering,sedangkan sampah yang basah di buang di lombang tanah. Kita juga harus menghentikan penebangan liar di hutan karena dapat menyebabkan banjir.</p>
+
+<p>Itulah lima contoh artikel pendek dari berbagai subjek yang sengaja kami berikan untuk anda, baik anda yang ingin membuat artikel pendek ataupun yang sedang mencari artikel pendek untuk tugas anda bisa melihat referensi dari kami di atas tersebut.</p>
